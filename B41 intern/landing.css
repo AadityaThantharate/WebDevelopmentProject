@@ -1,0 +1,131 @@
+body{
+    /* padding-left: 25px; */
+
+    background-image: url('b41internimg2.webp');
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-position: right top;
+   
+ }
+.content1{
+    /* text-align: right; */
+
+   float: right;
+
+   
+}
+.home_search{
+        font-size: 20px;
+}
+a{
+    text-decoration:none;
+    float: left;
+    color: black;
+ }
+ .course_page{
+    text-align: center;
+    
+}
+ .qw{
+    font-size: 40px;
+    padding-bottom: 10px;
+ }
+.button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    background-color:#ee0d0d;
+}
+.course_page{
+    display: block;
+}
+.image{
+    border-radius: 50px;
+}
+.heading{
+    font-size: 30px;
+}
+tr {
+    border-bottom: 2px solid #ee0d0d;
+    border-style: none;
+    
+  }
+table{
+    border-style: none; 
+    border-collapse: collapse;
+}   
+
+
+               
+.about{
+    background-color:rgb(148, 219, 238); 
+    width: 100%;
+    height: auto;
+}
+.about1{
+    text-align: center;
+}
+.about_para{
+    font-family: Roboto system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 2px;
+}
+
+.contact1{
+    background-image: url(black1.jpeg);
+    color: white;
+    opacity: 0.5;
+}
+.medialink{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(315deg,#ffffff,#d7e1ec);
+    display: inline-flex;
+    justify-content: space-around;
+}
+.wrapper .icon{
+    margin: 0 20px;
+    
+}
+.wrapper .icon span{
+    height: 20px;
+    width: 25px;
+    display: block;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgba(0,0, 0, 0.1);
+    padding: 20px;
+}
+.wrapper.icon span i{
+    font-size: 25x;
+    line-height: 60px;
+}
+.wrapper .icon .tooltip{
+    background: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow:0 10px 10px rgba(0,0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+}
+ .wrapper .icon:hover .tooltip
+ {
+    opacity:1;
+ }
+ .wrapper .icon .tooltip::before
+ {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #ee0d0d;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+ }
+
+hr{
+height: 2px; background-color: #ee0d0d;
+}
